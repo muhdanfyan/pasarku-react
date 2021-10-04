@@ -12,6 +12,7 @@ import CheckoutPage from "../pages/checkout"
 import Navbar from "../components/navbar"
 
 const Routes = () =>{
+    return(
     <div>
         <Navbar />
         <Switch>
@@ -26,6 +27,7 @@ const Routes = () =>{
             <Route path="/transaksi" exact component={TransaksiPage} />
         </Switch>
     </div>
+    )
 }
 
 export default Routes;
