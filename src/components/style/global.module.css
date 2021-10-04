@@ -1,3 +1,7 @@
+:root{
+    --primary: #40BFFF;
+    --secondary : #BCDDFE;
+}
 body{
     margin : 0px;
 }
@@ -9,6 +13,28 @@ body{
     background-image: url('../../assets/Promotion\ Image.png');
 }
 
+.row{}
+.card{
+    text-align: center;
+    padding: 30px;
+}
+.grid_produk{
+    
+}
+.item_produk{}
 .padding_sm{}
 .padding_md{}
 .padding_lg{}
+.input_group_1{}
+.input_group_1 input[type=search]{
+    padding: 8px 20px;
+    border: 2px solid var(--secondary);
+    border-radius: 5px 0 0 5px;
+}
+.input_group_1 button{
+    background-color: var(--primary);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+}
