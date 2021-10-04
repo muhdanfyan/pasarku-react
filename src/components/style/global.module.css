@@ -1,0 +1,14 @@
+body{
+    margin : 0px;
+}
+.wrapper{
+    min-height: 600px;
+}
+
+.banner_1{
+    background-image: url('../../assets/Promotion\ Image.png');
+}
+
+.padding_sm{}
+.padding_md{}
+.padding_lg{}
