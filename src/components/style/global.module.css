@@ -13,7 +13,45 @@ body{
     background-image: url('../../assets/Promotion\ Image.png');
 }
 
+.custom_banner{
+    min-height: 500px;
+    margin-top: 150px;
+    display: flex;
+}
+
 .row{}
+
+.bg_primary{
+    background-color: var(--primary);
+}
+
+.grid_2{
+    padding: 0 100px;
+    display: inline-flex;
+}
+.grid_2 div{
+    width: 50%;
+    position: relative;
+    top: 210px;
+}
+
+.image_custom_banner{
+    position: relative;
+    top: -305px;
+}
+
+.banner_link{
+    color: white;
+}
+
+.banner_link h1{
+    font-size: xxx-large;
+}
+
+.banner_link p{
+    font-size: 18px;
+}
+
 .card{
     text-align: center;
     padding: 30px;
