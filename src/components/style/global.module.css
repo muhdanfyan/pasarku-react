@@ -19,9 +19,28 @@ body{
     padding: 30px;
 }
 .grid_produk{
-    
+    display: inline-flex;
+    flex-flow: wrap;
+    padding: 30px 150px;
 }
-.item_produk{}
+.item_produk{
+    margin: 30px;
+}
+.item_produk button{
+    background: var(--primary);
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.item_produk button:hover{
+    opacity: 0.6;
+}
+
 .padding_sm{}
 .padding_md{}
 .padding_lg{}
