@@ -26,54 +26,73 @@ class Homepage extends Component {
                     <div className={Style.row}>
                         <div className={Style.grid_produk}>
                             <div className={Style.item_produk}>
-                                <img src={produk_1} alt="Item Produk" />
-                                <h2>Nike Air Max 270 React</h2>
-                                <h4>IDR. 1.200.000,-</h4>
-                                <button>BELI</button>
+                                <div>
+                                    <img src={produk_1} alt="Item Produk" />
+                                    <h2>Nike Air Max 270 React</h2>
+                                    <h4>IDR. 1.200.000,-</h4>
+                                    <button>BELI</button>
+                                </div>
                             </div>
                             <div className={Style.item_produk}>
-                                <img src={produk_2} alt="Item Produk" />
-                                <h2>Nike Air Max 270 React</h2>
-                                <h4>IDR. 1.200.000,-</h4>
-                                <button>BELI</button>
+                                <div>
+                                    <img src={produk_2} alt="Item Produk" />
+                                    <h2>Nike Air Max 270 React</h2>
+                                    <h4>IDR. 1.200.000,-</h4>
+                                    <button>BELI</button>
+                                </div>
                             </div>
                             <div className={Style.item_produk}>
-                                <img src={produk_3} alt="Item Produk" />
-                                <h2>Nike Air Max 270 React</h2>
-                                <h4>IDR. 1.200.000,-</h4>
-                                <button>BELI</button>
+                                <div>
+                                    <img src={produk_3} alt="Item Produk" />
+                                    <h2>Nike Air Max 270 React</h2>
+                                    <h4>IDR. 1.200.000,-</h4>
+                                    <button>BELI</button>
+                                </div>
                             </div>
                             <div className={Style.item_produk}>
-                                <img src={produk_4} alt="Item Produk" />
-                                <h2>Nike Air Max 270 React</h2>
-                                <h4>IDR. 1.200.000,-</h4>
-                                <button>BELI</button>
+                                <div>
+                                    <img src={produk_4} alt="Item Produk" />
+                                    <h2>Nike Air Max 270 React</h2>
+                                    <h4>IDR. 1.200.000,-</h4>
+                                    <button>BELI</button>
+                                </div>
                             </div>
                             <div className={Style.item_produk}>
-                                <img src={produk_5} alt="Item Produk" />
-                                <h2>Nike Air Max 270 React</h2>
-                                <h4>IDR. 1.200.000,-</h4>
-                                <button>BELI</button>
+                                <div>
+                                    <img src={produk_5} alt="Item Produk" />
+                                    <h2>Nike Air Max 270 React</h2>
+                                    <h4>IDR. 1.200.000,-</h4>
+                                    <button>BELI</button>
+                                </div>
                             </div>
                             <div className={Style.item_produk}>
-                                <img src={produk_6} alt="Item Produk" />
-                                <h2>Nike Air Max 270 React</h2>
-                                <h4>IDR. 1.200.000,-</h4>
-                                <button>BELI</button>
+                                <div>
+                                    <img src={produk_6} alt="Item Produk" />
+                                    <h2>Nike Air Max 270 React</h2>
+                                    <h4>IDR. 1.200.000,-</h4>
+                                    <button>BELI</button>
+                                </div>
                             </div>
                             <div className={Style.item_produk}>
-                                <img src={produk_7} alt="Item Produk" />
-                                <h2>Nike Air Max 270 React</h2>
-                                <h4>IDR. 1.200.000,-</h4>
-                                <button>BELI</button>
+                                <div>
+                                    <img src={produk_7} alt="Item Produk" />
+                                    <h2>Nike Air Max 270 React</h2>
+                                    <h4>IDR. 1.200.000,-</h4>
+                                    <button>BELI</button>
+                                </div>
                             </div>
                             <div className={Style.item_produk}>
-                                <img src={produk_8} alt="Item Produk" />
-                                <h2>Nike Air Max 270 React</h2>
-                                <h4>IDR. 1.200.000,-</h4>
-                                <button>BELI</button>
+                                <div>
+                                    <img src={produk_8} alt="Item Produk" />
+                                    <h2>Nike Air Max 270 React</h2>
+                                    <h4>IDR. 1.200.000,-</h4>
+                                    <button>BELI</button>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                    <div className={Style.row}>
+                        <div></div>
                     </div>
                 </div>
             </React.Fragment>
